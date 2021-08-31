@@ -15,4 +15,49 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "log",
+    "body": [
+      "console.log('$1');",
+      "$2"
+    ],
+    "description": "Log output to console"
+  },
+  "Import React": {
+    "scope": "javascript,typescript",
+    "prefix": "react",
+    "body": [
+      "import React from 'react';",
+      "$2"
+    ],
+    "description": "Import React"
+  },  
+  "Import Component": {
+    "scope": "javascript,typescript",
+    "prefix": "import",
+    "body": [
+      "import Component from './Component';",
+      "$1"
+    ],
+    "description": "Import Component"
+  },  
+  "Import CSS": {
+    "scope": "javascript,typescript",
+    "prefix": "css",
+    "body": [
+      "import './.css';",
+      "$1"
+    ],
+    "description": "Import CSS"
+  },  
+  "Export Component": {
+    "scope": "javascript,typescript",
+    "prefix": "export",
+    "body": [
+      "export default Component;",
+      "$1"
+    ],
+    "description": "Export Component"
+  },
 }
